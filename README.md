@@ -12,7 +12,7 @@ For jscs: see https://github.com/jscs-dev/node-jscs
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: git@github.com:SquadRun/mirrors-jscs
+    -   repo: git@github.com:squadrun/mirrors-jscs
         sha: ''  # Use the sha you want to point at
         hooks:
         -   id: jscs
