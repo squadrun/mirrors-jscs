@@ -1,5 +1,5 @@
--   id: jshint
-    name: jshint
-    entry: jshint
+-   id: jscs
+    name: jscs
+    entry: jscs
     language: node
     files: \.js$

@@ -1,18 +1,18 @@
-jshint mirror
+jscs mirror
 ================
 
-Mirror of jshint package for pre-commit.
+Mirror of jscs package for pre-commit.
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
-For jshint: see https://github.com/jshint/jshint
+For jscs: see https://github.com/jscs-dev/node-jscs
 
 
-### Using jshint with pre-commit
+### Using jscs with pre-commit
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: git://github.com/pre-commit/mirrors-jshint
+    -   repo: git@github.com:SquadRun/mirrors-jscs
         sha: ''  # Use the sha you want to point at
         hooks:
-        -   id: jshint
+        -   id: jscs
